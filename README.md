@@ -1,8 +1,9 @@
+# **Join the [MJMODZZ Discord](https://discord.gg/TrC7YxeXns)**
 # KeyAuth-CPP-Key-Only
 
 🔑 Nothing special, just https://keyauth.cc CPP examble with the License Key only 🔑
 
-The source code of the static library for KeyAuth is here https://github.com/KeyAuth/keyauth-cpp-library
+The source code of the static library for KeyAuth is here https://github.com/KeyAuth/keyauth-cpp-library <br/>
 
 **Security practices**
 
@@ -84,14 +85,6 @@ if (KeyAuthApp.checkblack()) {
 	abort();
 }
 ```
-
-
-**Upgrade user username/key**
-
-Used so the user can add extra time to their account by claiming new key.
-
-> **Warning**
-> No password is needed to upgrade account. So, unlike login, register, and license functions - you should **not** log user in after successful upgrade.
 
 
 **Login with just license key**
